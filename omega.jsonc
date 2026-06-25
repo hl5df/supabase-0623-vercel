@@ -1,0 +1,12 @@
+{
+  "name": "ms3-demo-dsql-debugging-0623",
+  "env": {
+    "production": {},
+    "preview": {}
+  },
+  "deploy": {
+    "install": "npm ci",
+    "output_directory": ".omega",
+    "build": "@omega-next-adapter"
+  }
+}
